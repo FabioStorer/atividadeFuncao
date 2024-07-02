@@ -2,12 +2,12 @@ const funcao = require('./funcoes');
 const prompt = require('prompt-sync')();
 
 console.log('Vou calcular para você a área de um dos items abaixo. Escolha pelo índice o que desejar:');
-console.log(1 + '.', 'Círculo');
-console.log(2 + '.', 'Triângulo');
-console.log(3 + '.', 'retângulo');
-console.log(4+'.', 'Sair');
 
 while (true) {
+    console.log(1 + '.', 'Círculo');
+    console.log(2 + '.', 'Triângulo');
+    console.log(3 + '.', 'retângulo');
+    console.log(4+'.', 'Sair');
     let opcao = prompt('Qual área deseja calcular? ');
     if (opcao == 1) {
         let input = prompt('Digite o raio do círculo: ');
